@@ -26,7 +26,7 @@ def getFortune(var):
 
 
 PID = getPID()
-print(f'SumID card : {sum(PID)}')
-print(f'Prophecy : {getFortune(sum(PID))}')
+print(f'The data from user : {sum(PID)}')
+print(f'The prediction result is : {getFortune(sum(PID))}')
 
 print("Hello-MIT221")
