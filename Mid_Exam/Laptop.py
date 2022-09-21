@@ -15,6 +15,7 @@ class Labtop:
         self.display = display
         self.storage = storage
         self.price = price
+        self.my_labtop.append(self)
 
     def display_labtop(self):
         print(f'No.:{self.no}, '
