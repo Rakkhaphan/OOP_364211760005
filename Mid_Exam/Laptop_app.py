@@ -33,6 +33,7 @@ def display_option_system():
     else:
         print("Please, select number 1-3.")
 
+
 # input data
 def input_laptop_data():
     brand = input("Enter laptop brand : ")
