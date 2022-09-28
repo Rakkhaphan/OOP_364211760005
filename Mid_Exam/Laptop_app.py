@@ -42,7 +42,7 @@ def input_laptop_data():
     ram = int(input("Enter laptop RAM(GB) : "))
     display = float(input("Enter laptop display(inch) : "))
     storage = int(input("Enter laptop storage(GB) : "))
-    price = int(input("Enter laptop price : "))
+    price = float(input("Enter laptop price : "))
 
     my_labtop.append(Labtop(brand, model, cpu, ram, display, storage, price))
     print("\n------------------------------------")
