@@ -35,7 +35,6 @@ def display_option_system():
 
 # input data
 def input_laptop_data():
-    no = input("Enter laptop NO. : ")
     brand = input("Enter laptop brand : ")
     model = input("Enter laptop model : ")
     cpu = input("Enter laptop CPU : ")
@@ -44,7 +43,7 @@ def input_laptop_data():
     storage = int(input("Enter laptop storage(GB) : "))
     price = int(input("Enter laptop price : "))
 
-    my_labtop.append(Labtop(no, brand, model, cpu, ram, display, storage, price))
+    my_labtop.append(Labtop(brand, model, cpu, ram, display, storage, price))
     print("\n------------------------------------")
     print("Already add laptop to store.")
     print("--------------------------------------")
